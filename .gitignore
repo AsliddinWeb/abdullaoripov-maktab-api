@@ -1,0 +1,104 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.python-version
+
+# Django
+*.log
+*.pot
+*.py[cod]
+db.sqlite3
+/media
+/static
+*.sqlite3
+*.db
+*.log
+
+# Environment
+.env
+.venv/
+venv/
+project-venv/
+ENV/
+env/
+*.env
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+*.project
+*.pydevproject
+
+# Migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Distribution / Packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+
+# Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Coverage
+.coverage
+coverage.xml
+*.cover
+*.hypothesis/
+nosetests.xml
+*.nib
+*.sublime-workspace
+
+# Pytest
+.pytest_cache/
+
+# Django Stuff
+*.DS_Store
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.env
+*.venv
+*.egg-info
+*.coverage
+*.cover
+*.hypothesis/
+nosetests.xml
+*.nib
+
+# Local environment variables
+.env
+
+# Testing
+*.coverage
+*.cover
+*.hypothesis/
+nosetests.xml
+*.nib
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+.dmypy.json
+
+# Flake8
+.flake8
+
+# Black
+black/
