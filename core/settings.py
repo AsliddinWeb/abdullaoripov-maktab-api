@@ -40,9 +40,8 @@ INSTALLED_APPS = [
     'navbar_app',
     'home_app',
     'news_app',
-    'page_app',
     'message_app',
-
+    'schoolinfo_app',
 ]
 
 # Rest framework
@@ -170,7 +169,7 @@ MODELTRANSLATION_TRANSLATION_FILES = (
     'settings_app.translation',
     'navbar_app.translation',
     'home_app.translation',
-    'page_app.translation',
+    'schoolinfo_app.translation',
 )
 
 # CKEditor

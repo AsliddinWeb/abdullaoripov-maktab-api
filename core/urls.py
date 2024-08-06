@@ -35,9 +35,9 @@ urlpatterns = [
     path('api/v1/settings/', include('settings_app.urls')),
     path('api/v1/navs/', include('navbar_app.urls')),
     path('api/v1/home/', include('home_app.urls')),
-    path('api/v1/page/', include('page_app.urls')),
     path('api/v1/news/', include('news_app.urls')),
     path('api/v1/message/', include('message_app.urls')),
+    path('api/v1/school/', include('schoolinfo_app.urls')),
 
 ]
 

@@ -1,4 +1,4 @@
-from rest_framework import status
+from rest_framework.status import HTTP_201_CREATED, HTTP_400_BAD_REQUEST
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
@@ -35,5 +35,5 @@ class SendMessageView(APIView):
             new_message = Message(**serializer.validated_data)
             new_message.save()
 
-            return Response({'status': "Xabar yuborildi!"}, status=status.HTTP_201_CREATED)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+            return Response({'status': "Xabar yuborildi!"}, status=HTTP_201_CREATED)
+        return Response(serializer.errors, status=HTTP_400_BAD_REQUEST)
